@@ -13,6 +13,7 @@ body {
 	font-size: 13px;
 	font-weight: 300;
     background: #e6e6e6;
+		display: none;
 }
 
 a, button { transition: all 0.3s ease; }
@@ -554,7 +555,8 @@ footer p { color: white; }
         margin-right: 20px;
     }
 
-    .tm-recommended-description-box { width: 450px; }
+    .tm-recommended-description-box { width: 350px;
+		}
 }
 
 @media screen and (max-width: 986px) {
@@ -612,8 +614,10 @@ footer p { color: white; }
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 270px;
+        width: 300px;
     }
+		.tm-recommended-img { width: 300px; }
+
 
     .tm-recommended-price,
     .tm-recommended-price-link {
