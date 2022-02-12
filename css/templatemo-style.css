@@ -464,7 +464,7 @@ footer p { color: white; }
     background: white;
     width: 100%;
     position: static;
-    top: 60px;
+    top: 16px;
     /* right: 270px; */
     padding: 20px 100px;
     /* z-index: 1000; */
@@ -616,9 +616,9 @@ footer p { color: white; }
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 400px;
+        width: 350px;
     }
-		.tm-recommended-img { width: 400px; }
+		.tm-recommended-img { width: 350px; }
 
 
     .tm-recommended-price,
@@ -630,9 +630,8 @@ footer p { color: white; }
     /* .tm-recommended-price { padding-top: 50px; } */
 
     .tm-recommended-price-box {
-        width: 400px;
-        height: 100px;
-				padding-left: 20px
+        width: 350px;
+        height: 70px;
         position: relative;
         overflow: hidden;
         padding-left: 0;
@@ -674,4 +673,13 @@ footer p { color: white; }
     .tm-form-group-3 {
         width: 100%;
     }
+		.tm-contact-form {
+		    background: white;
+		    width: 100%;
+		    position: static;
+		    top: 16px;
+		    /* right: 270px; */
+		    padding: 10px 40px;
+		    /* z-index: 1000; */
+		}
 }
