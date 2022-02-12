@@ -22,6 +22,8 @@ a:focus {
 	text-decoration: none;
 	outline: none;
 }
+ul { padding-left: 30px;
+    }
 
 p:last-child { margin-bottom: 0; }
 
@@ -380,6 +382,7 @@ label { font-weight: 700; }
 }
 
 .tm-recommended-title {
+	padding: 30px;
     font-size: 1.2rem;
     font-weight: 600;
     text-transform: uppercase;
@@ -388,7 +391,6 @@ label { font-weight: 700; }
 .tm-recommended-img { width: 270px; }
 
 .tm-recommended-description-box {
-    padding: 30px;
     width: 500px;
 }
 
@@ -607,16 +609,16 @@ footer p { color: white; }
         display: flex;
         flex-wrap: wrap;
         max-width: 600px;
-        margin: 0 auto 15px;
+        margin: 0 auto 0px;
     }
 
     .tm-recommended-place {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 300px;
+        width: 400px;
     }
-		.tm-recommended-img { width: 300px; }
+		.tm-recommended-img { width: 400px; }
 
 
     .tm-recommended-price,
@@ -625,18 +627,19 @@ footer p { color: white; }
         z-index: 1000;
     }
 
-    .tm-recommended-price { padding-top: 50px; }
+    /* .tm-recommended-price { padding-top: 50px; } */
 
     .tm-recommended-price-box {
-        width: 270px;
-        height: 180px;
+        width: 400px;
+        height: 100px;
+				padding-left: 20px
         position: relative;
         overflow: hidden;
         padding-left: 0;
         background-image: none;
     }
 
-    .tm-recommended-price-box:after {
+    /* .tm-recommended-price-box:after {
         content: "";
         position: absolute;
         width: 180px;
@@ -648,14 +651,14 @@ footer p { color: white; }
         -webkit-transform: rotate(90deg);
         transform: rotate(90deg);
         background-size: auto 100%;
-    }
+    } */
 
-    .tm-recommended-price-box,
-    .tm-recommended-price-box:hover {
+    /* .tm-recommended-price-box,
+    /* .tm-recommended-price-box:hover {
         background-size: cover;
-    }
+    } */ */
 
-    .tm-recommended-description-box { width: 270px; }
+    .tm-recommended-description-box { width: 400px;}
 }
 
 @media screen and (max-width: 767px) {
